@@ -156,8 +156,8 @@ function paragrafOlustur(cumleler, cumleKur) {
  */
 //3a çözümü
 
-ilksilme = meyveler.shift();
-sonsilme = meyveler.pop();
+const ilksilme = meyveler.shift();
+const sonsilme = meyveler.pop();
 console.log(meyveler);
 
 /* 			3b.  Bir tavşan ve bir kirpi arkadaşlar sebzeler dizimizin peşine düştü. Tavşan => 🐇 , Kirpi=> 🦔 , 
@@ -166,7 +166,10 @@ arkalarından dolaşacak. Varsayalım ki arkadaşların planları başarılı ol
 Kirpiyi dizinin son elemanına ekleyin 🦔
  */
 //3b çözümü
-/* kodlar buraya */
+const tavsan = sebzeler.unshift("🐇");
+const kirpi = sebzeler.push("🦔");
+
+console.log(sebzeler);
 
 /* 			3c. manav isminde bir dizi oluşturun.`meyveler` dizisi ilk elemanlara, `sebzeler` dizisi son 
 elemanlara denk gelecek şekilde, iki diziyi birleştirip sonucu manav dizisine aktarın. (.concat metodu)
