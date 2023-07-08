@@ -175,7 +175,8 @@ console.log(sebzeler);
 elemanlara denk gelecek şekilde, iki diziyi birleştirip sonucu manav dizisine aktarın. (.concat metodu)
  */
 //3c çözümü
-/* kodlar buraya */
+manav = meyveler.concat(sebzeler);
+console.log(manav);
 
 var manav;
 
