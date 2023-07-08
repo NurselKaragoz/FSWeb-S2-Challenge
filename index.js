@@ -106,8 +106,8 @@ sonucu konsolde gözlemleyin */
 /* (Oto test var) cumleKur fonksiyonuna 5 parametre göndererek "Ben iyi bir yazılımcı olacağım!" stringini 
 elde edin, sonucu `bircumle` değişkenine atayın ve konsolde gözlemleyin */
 var bircumle;
-
-/* kodlar buraya */
+var bircumle = cumleKur("Ben", "iyi", "bir", "yazılımcı", "olacağım!");
+console.log(bircumle);
 
 //		Sayfanın en üstünde global olarak tanımlanmış `cumleler` adında bir dizi bulunmaktadır. Bu dizinin
 // içinde en çok 5 en az 1 adet string bulunan diziler bulunmaktadır.Aşağıdaki görevlerde aksi
@@ -146,7 +146,7 @@ console.log(cumlelereDonustur(cumleler, " "));
 			6. Oluşturulan paragraf döndürülecek
 	*/
 
-function paragrafOlustur(/* kodlar buraya */) {
+function paragrafOlustur(cumleler, cumleKur) {
   /* kodlar buraya */
 }
 
