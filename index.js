@@ -127,11 +127,12 @@ var bircumle;
 			4. Oluşturulan her cümle yeni bir dizi oluşturulup o dizinin içine aktarılacak. 
 			5. Oluşturulan yeni dizi döndürülecek.
 	*/
-
-function cumlelereDonustur(/* kodlar buraya */) {
-  /* kodlar buraya */
+const seperator = ",";
+function cumlelereDonustur(cumleler, seperator) {
+  const newarray = cumleler.map((x) => x.join(seperator));
+  return newarray;
 }
-
+console.log(cumlelereDonustur(cumleler, " "));
 /* GÖREV 2:
 		paragrafOlustur fonksiyonuna aşağıdakileri uygulayın.
 			1. cumleler dizisi fonksiyonun birinci parametresi olarak alınacak
